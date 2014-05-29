@@ -4,8 +4,13 @@
     android:orientation="vertical" >
 
     <Button
-        android:id="@+id/login_button_timelapse"
+        android:id="@+id/main_button_annotateImage"
         style="@style/wrap"
-        android:text="Timelapse" />
+        android:text="Annotate Image" />
+    
+    <Button
+        android:id="@+id/main_button_timelapseVideo"
+        style="@style/wrap"
+        android:text="Timelapse Video" />
 
 </LinearLayout>
