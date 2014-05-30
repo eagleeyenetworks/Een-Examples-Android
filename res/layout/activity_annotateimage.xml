@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/match"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/wrap"
+        android:text="Select Camera" />
+
+    <Spinner
+        android:id="@+id/annotateimage_spinner"
+        style="@style/block" />
+    
+    <TextView
+		android:id="@+id/annotateimage_tv_timestamp" 
+		style="@style/wrap"
+		android:text="Timestamp"/>
+    
+    <ImageView 
+        	android:id="@+id/annotateimage_imageview"
+        	style="@style/block"
+        	android:src="@drawable/ic_launcher" />
+    
+    <LinearLayout 
+        style="@style/block"
+        android:orientation="horizontal"
+        android:weightSum="2">
+    
+        <Button 
+        	android:id="@+id/annotateimage_button_prev"
+        	style="@style/wrap"
+        	android:layout_width="0dp"
+        	android:layout_weight="1"
+        	android:text="Previous" />
+        
+        <Button 
+        	android:id="@+id/annotateimage_button_next"
+        	style="@style/wrap"
+        	android:layout_width="0dp"
+        	android:layout_weight="1"
+        	android:text="Next" />
+        
+    </LinearLayout >
+    
+    <Button 
+        android:id="@+id/annotateimage_button_debug"
+        style="@style/wrap"
+        android:text="Debug"
+        android:visibility="gone" />
+
+</LinearLayout>

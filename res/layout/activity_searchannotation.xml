@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/match"
+    android:orientation="vertical" >
+
+    <Button 
+        android:id="@+id/searchannotation_button_value"
+        style="@style/wrap"
+        android:text="Value: " />
+
+    <Button 
+        android:id="@+id/searchannotation_button_datetimepicker"
+        style="@style/wrap"
+        android:text="Date/Time: " />
+    
+    <Button 
+        android:id="@+id/searchannotation_button_search"
+        style="@style/wrap"
+        android:text="Search" />
+    
+</LinearLayout>

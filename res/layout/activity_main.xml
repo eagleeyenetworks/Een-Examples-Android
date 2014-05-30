@@ -9,6 +9,11 @@
         android:text="Annotate Image" />
     
     <Button
+        android:id="@+id/main_button_searchAnnotation"
+        style="@style/wrap"
+        android:text="Search Annotation" />
+    
+    <Button
         android:id="@+id/main_button_timelapseVideo"
         style="@style/wrap"
         android:text="Timelapse Video" />

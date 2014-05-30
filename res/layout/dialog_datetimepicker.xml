@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    style="@style/block"
+    android:orientation="vertical" >
+
+    <DatePicker
+        android:id="@+id/datePicker1"
+        style="@style/wrap"/>
+
+    <TimePicker
+        android:id="@+id/timePicker1"
+        style="@style/wrap" />
+
+</LinearLayout>

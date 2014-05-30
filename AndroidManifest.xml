@@ -27,6 +27,14 @@
             android:name=".ActivityAnnotateImage"
             android:configChanges="orientation|screenSize" />
         
+        <activity
+            android:name=".ActivitySearchAnnotation"
+            android:configChanges="orientation|screenSize" />
+        
+        <activity
+            android:name=".ActivityTimelapseVideo"
+            android:configChanges="orientation|screenSize" />
+        
     </application>
 
 </manifest>

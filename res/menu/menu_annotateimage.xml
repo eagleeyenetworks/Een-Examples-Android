@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.eagleeye.examples.MainActivity" >
+
+    <item
+        android:id="@+id/menu_annotateimage_annotate"
+        android:showAsAction="ifRoom"
+        android:title="Annotate"/>
+
+</menu>
